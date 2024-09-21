@@ -1,9 +1,10 @@
+import Landing from './Landing';
 import '../styles/App.css';
 
 function App() {
   return (
     <>
-      <p>daily_update</p>
+      <Landing />
     </>
   );
 }
