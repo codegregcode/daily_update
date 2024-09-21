@@ -5,14 +5,26 @@ exports[`App component > matches the snapshot 1`] = `
   <h1>
     daily_update
   </h1>
-  <button>
-    Login
-  </button>
-  <button>
-    Register
-  </button>
-  <button>
-    Forgotten Password?
-  </button>
+  <a
+    href="/login"
+  >
+    <button>
+      Login
+    </button>
+  </a>
+  <a
+    href="/register"
+  >
+    <button>
+      Register
+    </button>
+  </a>
+  <a
+    href="/forgot-password"
+  >
+    <button>
+      Forgotten Password?
+    </button>
+  </a>
 </DocumentFragment>
 `;
