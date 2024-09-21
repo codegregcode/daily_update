@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > matches the snapshot 1`] = `
+<DocumentFragment>
+  <p>
+    daily_update
+  </p>
+</DocumentFragment>
+`;
