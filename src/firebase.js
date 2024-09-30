@@ -44,7 +44,7 @@ const signInWithGoogle = async () => {
         name: user.displayName,
         authProvider: 'google',
         email: user.email,
-        role: 'agent',
+        onboard_status: 'start',
       });
     }
   } catch (err) {
