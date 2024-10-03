@@ -56,4 +56,4 @@ const logout = () => {
   signOut(auth);
 };
 
-export { auth, useAuthState, signInWithGoogle, logout };
+export { auth, useAuthState, signInWithGoogle, logout, db };
